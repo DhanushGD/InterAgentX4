@@ -28,7 +28,7 @@ It combines **RAG** (LlamaIndex + ChromaDB), **Web Research**, **Evidence Verifi
 
 ## 🗺 Architecture
 
-<img width="1431" height="554" alt="image" src="https://github.com/user-attachments/assets/a78e4b2f-9c46-48ed-97ba-bdb33821f219" />
+<img width="1431" height="554" alt="image" src="https://github.com/user-attachments/assets/dc8ed628-cb80-4aee-9ad3-fcf22b09a16a" />
 
 ## 🧩 Agent Roles & Interop
 
@@ -170,3 +170,4 @@ JS_SUMMARIZER_BASE=http://localhost:9104
 - **Agent SDKs**:
   - **Python**: A2A Python SDK for agent servers.
   - **JavaScript**: @a2a-js/sdk for JS Summarizer agent.
+
