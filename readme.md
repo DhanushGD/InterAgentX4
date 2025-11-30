@@ -47,9 +47,9 @@ Consumes RAG draft, evidence, and verified facts to produce a single structured 
 
 ### Interoperability Proofs
 
-- Agent-to-Agent (A2A): Uniform JSON-RPC streaming for Python ↔ JavaScript.
-- Model Context Protocol (MCP): Shared tools accessible across agents/languages.
-- RAG Consistency: LlamaIndex + ChromaDB indexing of user uploads, consistent retrieval semantics.
+- **Agent-to-Agent (A2A)**: Uniform JSON-RPC streaming for Python ↔ JavaScript.
+- **Model Context Protocol (MCP)**: Shared tools accessible across agents/languages.
+- **RAG Consistency**: LlamaIndex + ChromaDB indexing of user uploads, consistent retrieval semantics.
 
 
 ### Implementation Details
@@ -170,4 +170,5 @@ JS_SUMMARIZER_BASE=http://localhost:9104
 - **Agent SDKs**:
   - **Python**: A2A Python SDK for agent servers.
   - **JavaScript**: @a2a-js/sdk for JS Summarizer agent.
+
 
