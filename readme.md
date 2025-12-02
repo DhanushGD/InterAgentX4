@@ -1,7 +1,7 @@
 
 # 🚀 InterAgentX 4 — Multi-Agent Interoperability with Live Workflow
 
-**InterAgentX 4** is the sequel to **InterAgentX**[https://github.com/DhanushGD/InterAgentX], demonstrating **agent interoperability** (Python ↔ JavaScript) and **tool interoperability** via **A2A (JSON-RPC)** and a shared **MCP** layer (arXiv + DuckDuckGo) across languages and framework.  
+**InterAgentX 4** is the sequel to [**InterAgentX**](https://github.com/DhanushGD/InterAgentX), demonstrating **agent interoperability** (Python ↔ JavaScript) and **tool interoperability** via **A2A (JSON-RPC)** and a shared **MCP** layer (arXiv + DuckDuckGo) across languages and framework.  
 It combines **RAG** (LlamaIndex + ChromaDB), **Web Research**, **Evidence Verification**, and **JS-based Summarization** inside a **results-first Streamlit UI** with a **live workflow visualization**.
 
 ---
@@ -170,5 +170,6 @@ JS_SUMMARIZER_BASE=http://localhost:9104
 - **Agent SDKs**:
   - **Python**: A2A Python SDK for agent servers.
   - **JavaScript**: @a2a-js/sdk for JS Summarizer agent.
+
 
 
