@@ -97,13 +97,12 @@ streamlit run app/streamlit_app.py
 ## 🎯 How It Works
 
 ### Agent Communication Flow
-
-1️⃣ User uploads docs → Indexed with LlamaIndex + ChromaDB 
-2️⃣ User Query → RAG Analyst receives query + local context
-3️⃣ RAG Analyst retrieves local context & drafts an initial answer
-4️⃣ If needed, Analyst delegates to Web Researcher with Query + Local Context → MCP (arXiv/DDG) external evidence
-5️⃣ Analyst sends Query + Local Context + Web Evidence to Evidence Verifier → verified facts & caveats
-6️⃣ Analyst forwards draft + evidence + verified facts to JS Summarizer → Final Structured Summary
+- 1️⃣ User uploads docs → Indexed with LlamaIndex + ChromaDB 
+- 2️⃣ User Query → RAG Analyst receives query + local context
+- 3️⃣ RAG Analyst retrieves local context & drafts an initial answer
+- 4️⃣ If needed, Analyst delegates to Web Researcher with Query + Local Context → MCP (arXiv/DDG) external evidence
+- 5️⃣ Analyst sends Query + Local Context + Web Evidence to Evidence Verifier → verified facts & caveats
+- 6️⃣ Analyst forwards draft + evidence + verified facts to JS Summarizer → Final Structured Summary
 
 ### Real-Time Display Features
 - **Agent Status Indicators**: Shows which agent is currently active
@@ -172,6 +171,7 @@ JS_SUMMARIZER_BASE=http://localhost:9104
 - **Agent SDKs**:
   - **Python**: A2A Python SDK for agent servers.
   - **JavaScript**: @a2a-js/sdk for JS Summarizer agent.
+
 
 
 
