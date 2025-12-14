@@ -97,6 +97,7 @@ streamlit run app/streamlit_app.py
 ## 🎯 How It Works
 
 ### Agent Communication Flow
+
 1️⃣ User uploads docs → Indexed with LlamaIndex + ChromaDB 
 2️⃣ User Query → RAG Analyst receives query + local context
 3️⃣ RAG Analyst retrieves local context & drafts an initial answer
@@ -171,6 +172,7 @@ JS_SUMMARIZER_BASE=http://localhost:9104
 - **Agent SDKs**:
   - **Python**: A2A Python SDK for agent servers.
   - **JavaScript**: @a2a-js/sdk for JS Summarizer agent.
+
 
 
 
